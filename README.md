@@ -13,8 +13,21 @@ This tool analyzes Solidity smart contracts and generates code snippets showing 
 
 ### To run the command
 
+To see all the options, run:
 ```bash
 python fun-trace-snippet.py --help
+```
+
+To generate a snippet, run:
+
+```bash
+python fun-trace-snippet.py --contract-name <contract-name> --function-name <function-name>
+```
+
+For instance:
+
+```
+python fun-trace-snippet.py examples/GameToken.sol --contract GameToken --function rewardPlayer
 ```
 
 ## License
